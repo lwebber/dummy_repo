@@ -8,4 +8,6 @@ class Dummy
   def learn(points)
     @smart_level = @smart_level+points
   end
+  def dumb_down(points)
+    @smart_level = @smart_level-points
 end
